@@ -5,6 +5,8 @@ void setup() {
 void draw() {
   background(255);
   
+  background(#ADD8E6);
+  
   textAlign(CENTER);
   textSize(64);
   fill(0);
@@ -21,4 +23,5 @@ void draw() {
   fill(255);
   textSize(24);
   text("Start", width / 2, height - 220);
+  
 }
